@@ -1,0 +1,75 @@
+﻿<div>
+    @model ParcialPedriño.Models.Categorias
+
+    @{
+        ViewBag.Title = "Delete Categoria";
+    }
+
+    <h2></h2>
+
+    <h3></h3>
+    <div>
+        <h2>Eliminar Categoria</h2>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.CategoriaId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CategoriaId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.nombre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.nombre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.descripcion)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.descripcion)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.fecha_creacion)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.fecha_creacion)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.activo)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.activo)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.pais_origen)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.pais_origen)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Eliminar" class="btn btn-info" /> |
+                @Html.ActionLink("Volver Al Inicio", "Index", null, new { @class = "btn btn-dark" })
+            </div>
+        }
+    </div>
+</div>

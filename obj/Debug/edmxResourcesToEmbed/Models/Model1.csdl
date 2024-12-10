@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TiendaLibrosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="CategoriaId" />
+    </Key>
+    <Property Name="CategoriaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_creacion" Type="DateTime" Precision="0" />
+    <Property Name="activo" Type="Boolean" />
+    <Property Name="pais_origen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Libros" Relationship="Self.FK__Libros__Categori__4BAC3F29" FromRole="Categorias" ToRole="Libros" />
+  </EntityType>
+  <EntityType Name="Libros">
+    <Key>
+      <PropertyRef Name="LibroId" />
+    </Key>
+    <Property Name="LibroId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titulo" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="autor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="duracion" Type="Int32" />
+    <Property Name="clasificacion" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="fecha_publicacion" Type="DateTime" Precision="0" />
+    <Property Name="CategoriaId" Type="Int32" />
+    <NavigationProperty Name="Categorias" Relationship="Self.FK__Libros__Categori__4BAC3F29" FromRole="Libros" ToRole="Categorias" />
+  </EntityType>
+  <Association Name="FK__Libros__Categori__4BAC3F29">
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="CategoriaId" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="CategoriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TiendaLibrosEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" />
+    <EntitySet Name="Libros" EntityType="Self.Libros" />
+    <AssociationSet Name="FK__Libros__Categori__4BAC3F29" Association="Self.FK__Libros__Categori__4BAC3F29">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

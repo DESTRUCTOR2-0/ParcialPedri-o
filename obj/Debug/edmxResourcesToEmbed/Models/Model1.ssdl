@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TiendaLibrosModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="CategoriaId" />
+    </Key>
+    <Property Name="CategoriaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="descripcion" Type="varchar" MaxLength="255" />
+    <Property Name="fecha_creacion" Type="date" />
+    <Property Name="activo" Type="bit" />
+    <Property Name="pais_origen" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Libros">
+    <Key>
+      <PropertyRef Name="LibroId" />
+    </Key>
+    <Property Name="LibroId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="titulo" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="autor" Type="varchar" MaxLength="100" />
+    <Property Name="duracion" Type="int" />
+    <Property Name="clasificacion" Type="varchar" MaxLength="20" />
+    <Property Name="fecha_publicacion" Type="date" />
+    <Property Name="CategoriaId" Type="int" />
+  </EntityType>
+  <Association Name="FK__Libros__Categori__4BAC3F29">
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="CategoriaId" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="CategoriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TiendaLibrosModelStoreContainer">
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Libros" EntityType="Self.Libros" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Libros__Categori__4BAC3F29" Association="Self.FK__Libros__Categori__4BAC3F29">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

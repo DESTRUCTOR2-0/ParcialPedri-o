@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TiendaLibrosModelStoreContainer" CdmEntityContainer="TiendaLibrosEntities3">
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="TiendaLibrosModel.Categorias">
+        <MappingFragment StoreEntitySet="Categorias">
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="fecha_creacion" ColumnName="fecha_creacion" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+          <ScalarProperty Name="pais_origen" ColumnName="pais_origen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Libros">
+      <EntityTypeMapping TypeName="TiendaLibrosModel.Libros">
+        <MappingFragment StoreEntitySet="Libros">
+          <ScalarProperty Name="LibroId" ColumnName="LibroId" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="autor" ColumnName="autor" />
+          <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="clasificacion" ColumnName="clasificacion" />
+          <ScalarProperty Name="fecha_publicacion" ColumnName="fecha_publicacion" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

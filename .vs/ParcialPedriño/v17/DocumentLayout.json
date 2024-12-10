@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|c:\\users\\pedro miranda\\downloads\\parcialpedri\u00F1o\\parcialpedri\u00F1o\\models\\bckaup\\bdlibros.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:models\\bckaup\\bdlibros.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|c:\\users\\pedro miranda\\downloads\\parcialpedri\u00F1o\\parcialpedri\u00F1o\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|c:\\users\\pedro miranda\\downloads\\parcialpedri\u00F1o\\parcialpedri\u00F1o\\models\\bckaup\\bdlibros.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{EB2A8753-7568-458E-8AF8-47F6B3F85E93}|ParcialPedri\u00F1o.csproj|solutionrelative:models\\bckaup\\bdlibros.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BDLibros.sql ",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Models\\bckaup\\BDLibros.sql",
+              "RelativeDocumentMoniker": "Models\\bckaup\\BDLibros.sql",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Models\\bckaup\\BDLibros.sql",
+              "RelativeToolTip": "Models\\bckaup\\BDLibros.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-09T23:47:43.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:57:45.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAwwHMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:56:49.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\LibrosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LibrosController.cs",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Controllers\\LibrosController.cs",
+              "RelativeToolTip": "Controllers\\LibrosController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwHAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T19:15:58.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-09T19:38:09.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:59:33.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:42:35.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Categorias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categorias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Categorias\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Categorias\\Delete.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:31:40.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Categorias\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Categorias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Pedro Miranda\\Downloads\\ParcialPedri\u00F1o\\ParcialPedri\u00F1o\\Views\\Categorias\\Details.cshtml",
+              "RelativeToolTip": "Views\\Categorias\\Details.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T15:31:06.254Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
